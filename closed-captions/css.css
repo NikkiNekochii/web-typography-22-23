@@ -9,7 +9,6 @@ Feel free to adjust the defaults to your needs.
 	opacity: 0;
 	transition: .05s;
 	position: absolute;
-	color: ghostwhite;
 }
 #closed-captions .on {
 	opacity: 1;
@@ -21,9 +20,11 @@ Feel free to adjust the defaults to your needs.
 
 .voice1 {
 	font-style: italic;
+	color: ghostwhite;
 }
 .voice2 {
 	font-weight: bold;
+	color: ghostwhite;
 }
 
 .voice3{
@@ -31,10 +32,11 @@ Feel free to adjust the defaults to your needs.
 	font-style: Italic;
 	font-weight: 800;
 	position: relative;
-	top: 8em;
-	left: 12em;
-	color: rgb(180, 8, 8);
+	top: 10em;
+	left: 19em;
+	color: rgb(194, 11, 11);
 }
+
 
 /* **********************************************
 The first paragraph, with extended timing for 
@@ -111,6 +113,7 @@ You probably want to change the styling.
 }
 
 
+
 /* **********************************************
 Sounds.
 	You can style the whole body, or you can 
@@ -118,9 +121,21 @@ Sounds.
 	a sound starts.
 *********************************************  */
 
+.sound0 {
+	/* background-image: linear-gradient(to right, white , black); */
+	animation: kleuren;
+	animation-duration: 2s;
+	background-image: linear-gradient(to right, black, rgb(255, 235, 235), black);
+}
+@keyframes kleuren {
+	0% {background-position: 0vw;}
+	100% {background-position: 100vw;}
+}
+
 /* The moment the class .sound1 is added to the body, the background is yellow */
 .sound1 {
-	
+	background-color: #191919;
+	background-image: none;
 }
 
 /* The moment the class .sound1 is added to the body, the movie makes a turn */
