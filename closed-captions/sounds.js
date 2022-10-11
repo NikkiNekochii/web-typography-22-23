@@ -2,7 +2,7 @@
 // Op die mommenten komt er een class op de body.
 sounds = [
 	0, /* alsof iet voorbij vliegt */
-	3,
+	3, // loze ruimte
 	9, /* celdeur open alarm */
 	12, 
 	15,
