@@ -28,8 +28,12 @@ Feel free to adjust the defaults to your needs.
 
 .voice3{
 	font-family: "Brenner Slab";
-font-style: Italic;
-font-weight: 800;
+	font-style: Italic;
+	font-weight: 800;
+	position: relative;
+	top: 8em;
+	left: 12em;
+	color: rgb(180, 8, 8);
 }
 
 /* **********************************************
@@ -106,11 +110,6 @@ You probably want to change the styling.
 	font-family: "brenner slab";
 }
 
-.p1.on {
-	background: hotpink;
-	color: red;
-	font-size: 200px;
-}
 
 /* **********************************************
 Sounds.
