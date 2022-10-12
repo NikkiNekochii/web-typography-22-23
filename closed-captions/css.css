@@ -45,6 +45,7 @@ Feel free to adjust the defaults to your needs.
 	color: rgb(196, 28, 28);
 }
 
+/* .po.on is code voor elke regel tekst wanneer die aan gaat. zo kan je de tekst apart van elkaar veranderen */
 
 /* **********************************************
 The first paragraph, with extended timing for 
@@ -153,14 +154,14 @@ Sounds.
 }
 
 @keyframes blinker {
-  50% {
-    opacity: 0;
-  }
+	0% { background-color:  #ff0000;}
+	50% {opacity: 0;}
+	100% { background-color:  #191919;}
 }
 
 
-.sound2 #video-mask {
 
+.sound2 #video-mask {
 
 }
 
