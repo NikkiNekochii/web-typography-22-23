@@ -19,15 +19,19 @@ Feel free to adjust the defaults to your needs.
 }
 
 .voice1 {
-	font-style: italic;
+	font-family: "Brenner sans";
+	font-style: Normal;
+	font-weight: 600;
 	font-size: 25px;
 	color: ghostwhite;
 	position: relative;
 	top: 75%;
 }
 .voice2 {
-	font-weight: bold;
-	font-size: 30px;
+	font-family: "Brenner Mono";
+	font-style: Normal;
+	font-weight: 600;
+	font-size: 20px;
 	color: ghostwhite;
 	position: relative;
 	top: 75%;
@@ -37,11 +41,11 @@ Feel free to adjust the defaults to your needs.
 .voice3{
 	font-family:  "Brenner Sans Condensed";
 	font-style: bold;
-	font-weight:800;
+	font-weight: 800;
 	font-size: 30px;
 	position: relative;
 	top: 6em;
-	left: 11em;
+	left: 13em;
 	color: rgb(196, 28, 28);
 }
 
