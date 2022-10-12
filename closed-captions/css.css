@@ -129,6 +129,7 @@ Sounds.
 	a sound starts.
 *********************************************  */
 
+/* sound 0 starts, de body gets a moving gradient from left to right as if something passes by */
 .sound0 {
 	animation: kleuren;
 	animation-duration: 2s;
@@ -141,7 +142,7 @@ Sounds.
 	100% {background-position: left;}
 }
 
-/* The moment the class .sound1 is added to the body, the background is yellow */
+/* The moment the class .sound1 is added to the body, the background is dark grey*/
 .sound1 {
 	background-color: #191919;
 	background-image: none;
