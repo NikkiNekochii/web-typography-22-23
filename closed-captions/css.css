@@ -148,6 +148,17 @@ Sounds.
 	background-image: none;
 }
 
+.sound2 {
+	animation: blinker .5s linear;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+
 .sound2 #video-mask {
 
 
