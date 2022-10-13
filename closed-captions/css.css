@@ -20,36 +20,47 @@ Feel free to adjust the defaults to your needs.
 
 .voice1 {
 	font-family: "Brenner sans";
-	font-style: Normal;
+	font-style: Bold;
 	font-weight: 600;
 	font-size: 25px;
 	color: ghostwhite;
+	background-color: rgba(0, 0, 0, 0.599);
 	position: relative;
-	top: 75%;
+	top: 70%;
+	left: 12%;
 }
 .voice2 {
 	font-family: "Brenner Mono";
 	font-style: Normal;
 	font-weight: 600;
 	font-size: 20px;
+	background-color: rgba(0, 0, 0, 0.599);
 	color: ghostwhite;
 	position: relative;
-	top: 75%;
-	left: 12%;
+	top: 78%;
+	left: 23%;
 }
 
 .voice3{
 	font-family:  "Brenner Sans Condensed";
 	font-style: bold;
 	font-weight: 800;
-	font-size: 30px;
+	font-size: 21px;
 	position: relative;
-	top: 6em;
-	left: 13em;
-	color: rgb(196, 28, 28);
+	top: 8em;
+	color: rgb(235, 35, 35);
 }
 
 /* .po.on is code voor elke regel tekst wanneer die aan gaat. zo kan je de tekst apart van elkaar veranderen */
+
+.p6.on{
+ animation: slide .5s forwards;
+}
+
+@keyframes slide {
+	from { left: 0em;}
+	to { left: 19em; }
+}
 
 /* **********************************************
 The first paragraph, with extended timing for 
@@ -154,7 +165,7 @@ Sounds.
 }
 
 .sound2 {
-	animation: blinker .5s linear;
+	animation: blinker 1s linear;
 }
 
 @keyframes blinker {
@@ -164,10 +175,20 @@ Sounds.
 }
 
 
-
-.sound2 #video-mask {
-
+.sound3 #video-mask {
+	box-shadow: 0 0 60px 10px rgb(239, 54, 54), 0 0 100px 40px #f0f, 0 0 140px 70px #0ff;
+	/*  background: linear-gradient(270deg, rgba(255, 0, 102, 0.784), rgba(0, 153, 255, 0.833));
+    background-size: 200% 200%;
+    animation: animateGlow 2s ease; */
 }
+
+/* @keyframes animateGlow {
+	0%{background-position:0% 50%}
+	50%{background-position:100% 50%}
+	100%{background-position:0% 50%}
+} */
+
+
 
 
 /* The moment the class .sound1 is added to the body, the movie makes a turn */
