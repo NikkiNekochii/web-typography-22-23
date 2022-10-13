@@ -176,10 +176,31 @@ Sounds.
 
 
 .sound3 #video-mask {
-	box-shadow: 0 0 60px 10px rgb(239, 54, 54), 0 0 100px 40px #f0f, 0 0 140px 70px #0ff;
 	/*  background: linear-gradient(270deg, rgba(255, 0, 102, 0.784), rgba(0, 153, 255, 0.833));
     background-size: 200% 200%;
     animation: animateGlow 2s ease; */
+	animation: blink 1s ease-in forwards 2;
+
+}
+
+@keyframes blink {
+	0%{
+		box-shadow: -5px -10px 10px rgb(235, 0, 0),  5px 10px 14px rgb(0, 0, 0);
+
+	}
+	/* 25%{
+		box-shadow: -5px -10px 10px rgb(0, 0, 0),  5px 10px 14px rgb(34, 0, 255);
+
+	}
+	75%{
+		box-shadow: -5px -10px 10px rgb(235, 0, 0),  5px 10px 14px rgb(0, 0, 0);
+
+	} */
+	100%{
+		box-shadow: -5px -10px 10px rgb(0, 0, 0),  5px 10px 14px rgb(34, 0, 255);
+
+	}
+	
 }
 
 /* @keyframes animateGlow {
