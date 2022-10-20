@@ -183,10 +183,10 @@ Sounds.
 
 @keyframes police {
 	0%{
-		box-shadow: -5px -10px 20px rgb(235, 0, 0),  5px 10px 14px rgb(0, 0, 0);
+		box-shadow: -8px -13px 20px rgb(235, 0, 0),  8px 13px 14px rgb(0, 0, 0);
 	}
 	100%{
-		box-shadow: -5px -10px 14px rgb(0, 0, 0),  5px 10px 20px rgb(34, 0, 255);
+		box-shadow: -8px -13px 14px rgb(0, 0, 0),  8px 13px 20px rgb(34, 0, 255);
 	}
 	
 }
@@ -212,7 +212,45 @@ animation: shake .5s cubic-bezier(0.74,-0.03, 0.58, 1) forwards;
 }
 
 .sound5 {
+	background:  #191919;
+	animation: gradient .5s ;
+}
 
+@keyframes gradient {
+	0% {background: linear-gradient(14deg, rgba(0,0,0,1) 21%, rgba(253,29,29,1) 50%, rgba(0,0,0,1) 76%);
+	}
+	50% { background: linear-gradient(90deg, rgba(0,0,0,1) 21%, rgba(253,29,29,1) 50%, rgba(0,0,0,1) 76%);
+		}
+	100% { background: linear-gradient(168deg, rgba(0,0,0,1) 21%, rgba(253,29,29,1) 50%, rgba(0,0,0,1) 76%);
+	}
+}
+
+.sound6 #video-mask {
+	animation: shake .5s cubic-bezier(0.74,-0.03, 0.58, 1) infinite;
+}
+/* @keyframes shake {
+	0% {transform: translateX(0);}
+	20% {transform: translateX(-20px);}
+	40% {transform: translateX(20px);}
+	60% {transform: translateX(-20px);}
+	80% {transform: translateX(20px);}
+	100% {transform: translateX(0);}
+} */
+
+.sound7 #video-mask{
+	animation: shake .5s cubic-bezier(0.74,-0.03, 0.58, 1) forwards;
+	}
+
+
+.sound7 {
+	background:  #191919;
+	animation: gradient2 .5s ;
+}
+	
+@keyframes gradient2 {
+0% {background: linear-gradient(14deg, rgba(0,0,0,1) 21%, rgba(253,29,29,1) 50%, rgba(0,0,0,1) 76%);}
+50% { background: linear-gradient(90deg, rgba(0,0,0,1) 21%, rgba(253,29,29,1) 50%, rgba(0,0,0,1) 76%);}
+100% { background: linear-gradient(168deg, rgba(0,0,0,1) 21%, rgba(253,29,29,1) 50%, rgba(0,0,0,1) 76%);}
 }
 
 
