@@ -275,18 +275,9 @@ animation: shake .5s cubic-bezier(0.74,-0.03, 0.58, 1) forwards;
 }
 
 @keyframes whitenoise {
-	0% {background: radial-gradient(circle, rgba(0,0,0,1) 100%, rgba(255,255,255,1) 100%);}
-	10% {background: radial-gradient(circle, rgba(0,0,0,1) 81%, rgba(255,255,255,1) 100%);}
-	20% {background: radial-gradient(circle, rgba(0,0,0,1) 61%, rgba(255,255,255,1) 100%);}
-	30% {background: radial-gradient(circle, rgba(0,0,0,1) 40%, rgba(255,255,255,1) 100%);}
-	40% {background: radial-gradient(circle, rgba(0,0,0,1) 23%, rgba(255,255,255,1) 100%);}
-	50% {background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 100%);}
-	60% {background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 82%);}
-	70% {background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 62%);}
-	80% {background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 39%);}
-	90% {background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 22%);}
-	100% {background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 0%);}
-	}
+	0% { background-color:  #000000;}
+	100% { background-color:  #ffffff;}
+}
 
 
 
