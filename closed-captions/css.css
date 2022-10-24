@@ -279,7 +279,7 @@ animation: shake .5s cubic-bezier(0.74,-0.03, 0.58, 1) forwards;
 }
 
 .sound10 #video-mask {
-	animation: zoom 43s;
+	animation: zoom 42s;
 }
 
 @keyframes zoom {
@@ -287,7 +287,7 @@ animation: shake .5s cubic-bezier(0.74,-0.03, 0.58, 1) forwards;
 	transform: scale(1, 1);
 	}
 	100% {
-	transform: scale(1.5, 1.5);
+	transform: scale(1.2, 1.2);
 	}
 }
 
