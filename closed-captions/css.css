@@ -283,12 +283,8 @@ animation: whitenoise 42.6s ease-out;
 }
 
 @keyframes zoom {
-	0% {
-	transform: scale(0.82);
-	}
-	100% {
-	transform: scale(1.13);
-	}
+	0% {transform: scale(0.82);}
+	100% {transform: scale(1.13);}
 }
 
 
