@@ -270,13 +270,25 @@ animation: shake .5s cubic-bezier(0.74,-0.03, 0.58, 1) forwards;
 }
 
 .sound10 {
-	background: black;
-	animation: whitenoise 20s;
+	animation: whitenoise 43s ease-out;
 }
 
 @keyframes whitenoise {
 	0% { background-color:  #000000;}
 	100% { background-color:  #ffffff;}
+}
+
+.sound10 #video-mask {
+	animation: zoom 43s;
+}
+
+@keyframes zoom {
+	0% {
+	transform: scale(1, 1);
+	}
+	100% {
+	transform: scale(1.5, 1.5);
+	}
 }
 
 
