@@ -11,7 +11,7 @@ sounds = [
 	25.8, // microfoon glitch 2
 	31, // buzzing noice 3 more profound
 	32, // microfoon glitch 3 more profound
-	34, // piep geluid dat steeds harder word
+	33, // piep geluid dat steeds harder word
 	86 // mysterious space music
 ];
 
