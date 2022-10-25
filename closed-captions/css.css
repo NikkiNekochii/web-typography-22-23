@@ -62,7 +62,7 @@ Feel free to adjust the defaults to your needs.
 	color: ghostwhite;
 	background-color: rgba(0, 0, 0, 0.599);
 	position: relative;
-	top: 75%;
+	top: 77%;
 	left: 11.5%;
 }
 
@@ -77,8 +77,245 @@ Feel free to adjust the defaults to your needs.
 	to { left: 30em; }
 }
 
+.p8.on {
+	position: relative;
+	top: 76%;
+	left: 16%;
+}
 
+.p9.on {
+	position: relative;
+	top: 74%;
+	left: 43%;
+}
 
+.p10.on {
+	position: relative;
+	top: 72%;
+	left: 18%;
+}
+
+.p11.on {
+	position: relative;
+	top: 72%;
+	left: 18%;
+}
+
+.p12.on {
+	position: relative;
+	top: 74%;
+	left: 43%;
+}
+
+.p13.on {
+	position: relative;
+	top: 73%;
+	left: 18%;
+}
+
+.p14.on {
+	position: relative;
+	top: 73%;
+	left: 18%;
+}
+
+.p15.on {
+	position: relative;
+	top: 75%;
+	left: 43%;
+}
+
+.p16.on {
+	position: relative;
+	top: 73%;
+	left: 15%;
+}
+
+.p17.on {
+	position: relative;
+	top: 75%;
+	left: 15%;
+}
+
+.p18.on {
+	position: relative;
+	top: 78%;
+	left: 43%;
+}
+
+.p19.on {
+	position: relative;
+	top: 76%;
+	left: 13%;
+}
+
+.p20.on {
+	position: relative;
+	top: 78%;
+	left: 43%;
+}
+
+.p21.on {
+	font-size: 33px;
+	position: relative;
+	top: 76%;
+	left: 11%;
+}
+
+.p22.on {
+	font-size: 33px;
+	position: relative;
+	top: 76.5%;
+	left: 11%;
+}
+
+.p23.on {
+	position: relative;
+	top: 79%;
+	left: 44%;
+}
+
+.p24.on {
+	font-size: 34px;
+	position: relative;
+	top: 77%;
+	left: 10%;
+}
+
+.p25.on {
+	font-size: 34px;
+	position: relative;
+	top: 78%;
+	left: 10%;
+}
+
+.p26.on {
+	position: relative;
+	top: 81%;
+	left: 44%;
+}
+
+.p27.on {
+	font-size: 38px;
+	position: relative;
+	top: 78%;
+	left: 9%;
+}
+
+.p28.on {
+	font-size: 38px;
+	position: relative;
+	top: 78%;
+	left: 8%;
+}
+
+.p29.on {
+	position: relative;
+	top: 82%;
+	left: 45%;
+}
+
+.p30.on {
+	font-size: 40px;
+	position: relative;
+	top: 77.5%;
+	left: 9%;
+}
+
+.p31.on {
+	position: relative;
+	top: 83%;
+	left: 45%;
+}
+
+.p32.on {
+	font-size: 40px;
+	position: relative;
+	top: 77.5%;
+	left: 8%;
+}
+
+.p33.on {
+	font-size: 42px;
+	position: relative;
+	top: 77.5%;
+	left: 8%;
+}
+
+.p34.on {
+	position: relative;
+	top: 83%;
+	left: 45%;
+}
+
+.p35.on {
+	font-size: 44px;
+	position: relative;
+	top: 77.5%;
+	left: 6.5%;
+}
+
+.p36.on {
+	font-size: 44px;
+	position: relative;
+	top: 77.5%;
+	left: 6.5%;
+}
+
+.p37.on {
+	position: relative;
+	top: 83%;
+	left: 45%;
+}
+
+.p38.on {
+	font-size: 46px;
+	position: relative;
+	top: 77.5%;
+	left: 6.5%;
+}
+
+.p39.on {
+	position: relative;
+	top: 83%;
+	left: 45%;
+}
+
+.p40.on {
+	font-size: 46px;
+	color:#ef0000;
+	position: relative;
+	top: 77.5%;
+	left: 6.5%;
+	animation: shaky .5s cubic-bezier(0.74,-0.03, 0.58, 1);
+}
+
+@keyframes shaky {
+	0% {transform: translateX(0);}
+	20% {transform: translateX(-20px);}
+	40% {transform: translateX(20px);}
+	60% {transform: translateX(-20px);}
+	80% {transform: translateX(20px);}
+	100% {transform: translateX(0);}
+}
+
+.p41.on {
+	position: relative;
+	top: 83%;
+	left: 45%;
+}
+
+.p42.on {
+	position: relative;
+	top: 83%;
+	left: 45%;
+}
+
+.p43.on {
+	position: relative;
+	top: 83%;
+	left: 45%;
+}
 
 
 
