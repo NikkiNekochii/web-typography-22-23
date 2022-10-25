@@ -26,8 +26,8 @@ Feel free to adjust the defaults to your needs.
 	color: ghostwhite;
 	background-color: rgba(0, 0, 0, 0.599);
 	position: relative;
-	top: 77%;
-	left: 12%;
+	top: 75%;
+	left: 11.5%;
 }
 .voice2 {
 	font-family: "Brenner Mono";
@@ -37,8 +37,8 @@ Feel free to adjust the defaults to your needs.
 	background-color: rgba(0, 0, 0, 0.599);
 	color: ghostwhite;
 	position: relative;
-	top: 77%;
-	left: 23%;
+	top: 78%;
+	left: 43%;
 }
 
 .voice3{
@@ -51,6 +51,18 @@ Feel free to adjust the defaults to your needs.
 	color: rgb(235, 35, 35);
 }
 
+.voice4 {
+	font-family: "Brenner";
+	font-style: Normal;
+	font-weight: 600;
+	font-size: 25px;
+	color: ghostwhite;
+	background-color: rgba(0, 0, 0, 0.599);
+	position: relative;
+	top: 75%;
+	left: 11.5%;
+}
+
 /* .po.on is code voor elke regel tekst wanneer die aan gaat. zo kan je de tekst apart van elkaar veranderen */
 
 .p6.on{
@@ -61,6 +73,12 @@ Feel free to adjust the defaults to your needs.
 	from { left: 0em;}
 	to { left: 30em; }
 }
+
+
+
+
+
+
 
 /* **********************************************
 The first paragraph, with extended timing for 

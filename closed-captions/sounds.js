@@ -7,7 +7,7 @@ sounds = [
 	12, // alarm politie
 	15, // buzzing noice
 	16.5, // microfoon glitch
-	24, // buzzing noice 2
+	23.9, // buzzing noice 2
 	25.8, // microfoon glitch 2
 	31, // buzzing noice 3 more profound
 	32, // microfoon glitch 3 more profound
