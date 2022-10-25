@@ -5,6 +5,9 @@ Show them when they receive the class 'on'
 Hide them when they receive the class 'off'
 Feel free to adjust the defaults to your needs.
 ********************************************** */
+
+
+
 #closed-captions p {
 	opacity: 0;
 	transition: .05s;
@@ -308,7 +311,6 @@ animation: whitenoise 42.6s ease-out;
 
 
 
-
 /* The moment the class .sound1 is added to the body, the movie makes a turn */
 .sound1 #video-mask {
 	
@@ -326,9 +328,12 @@ body {
 	margin: 0;
 	justify-content: center;
 	background-color: #191919;
+	cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='56' height='67' viewport='0 0 100 100' style='fill:black;font-size:34px;'><text y='50%'>🚀</text></svg>") 16 0,auto; /*!emojicursor.app*/
 }
+
 #video-container {
 	margin: auto;
+	
 }
 #video-mask {
 	aspect-ratio: 240.5/100;
@@ -343,3 +348,4 @@ iframe {
 	height: 53.33333333vw;
 	margin-top: -0.35vw;
 }
+
