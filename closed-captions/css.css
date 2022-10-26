@@ -546,10 +546,10 @@ animation: whitenoise 42.6s ease-out;
 }
 
 .sound11 {
-	animation: snow 1.6s ease;
+	animation: sneeuw 1.6s ease;
 }
 
-@keyframes snow {
+@keyframes sneeuw {
 	0%{background-image: url("images/snow.gif");}
 	100%{background-image: url("images/snow.gif");}
 }
